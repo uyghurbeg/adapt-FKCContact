@@ -1,0 +1,86 @@
+{
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://jsonschema.net",
+  "required": false,
+  "properties": {
+    "pluginLocations": {
+      "type": "object",
+      "required": true,
+      "properties": {
+        "config": {
+          "type": "object"
+        },
+        "course": {
+          "type": "object",
+          "properties": {
+            "_FKCContact": {
+              "type": "object",
+              "required": false,
+              "legend": "FKCContact Slider",
+              "properties": {
+                "_isEnabled": {
+                  "type": "boolean",
+                  "required": true,
+                  "default": false,
+                  "title": "Is enabled",
+                  "inputType": "Checkbox",
+                  "validators": [],
+                  "help": "Controls whether the FKCContact extension is enabled or disabled."
+                }
+              }
+            }
+          }
+        },
+        "contentobject": {
+          "type": "object",
+          "properties": {
+            "_FKCContact": {
+              "type": "object",
+              "required": true,
+              "legend": "FKCContact Slider",
+              "properties": {
+                "_isEnabled": {
+                  "type": "boolean",
+                  "required": true,
+                  "default": true,
+                  "title": "Is enabled",
+                  "inputType": "Checkbox",
+                  "validators": [],
+                  "help": "Controls whether the FKCContact extension is enabled or disabled."
+                },
+                "_tel": {
+                  "type": "string",
+                  "required": true,
+                  "default": "",
+                  "title": "Telephone",
+                  "inputType": "Text",
+                  "validators": [],
+                  "help": "Enter Telephone number."
+                },
+                "_email": {
+                  "type": "string",
+                  "required": true,
+                  "default": "",
+                  "title": "Email",
+                  "inputType": "Text",
+                  "validators": [],
+                  "help": "Enter Email address."
+                }
+              }
+            }
+          }
+        },
+        "article": {
+          "type": "object"
+        },
+        "block": {
+          "type": "object"
+        },
+        "component": {
+          "type": "object"
+        }
+      }
+    }
+  }
+}

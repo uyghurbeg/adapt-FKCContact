@@ -1,0 +1,20 @@
+{
+    "name": "adapt-FKCContact",
+    "repository": "https://github.com/uyghurbeg/adapt-FKCContact.git",
+    "version": "1.0.0",
+    "framework": ">=2.4",
+    "homepage": "https://github.com/uyghurbeg/adapt-FKCContact",
+    "displayName": "FKCContact",
+    "extension": "FKCContact",
+    "description": "An extension to display contact info slider on the right side of adapt page.",
+    "main": "/js/adapt-FKCContact.js",
+    "authors": [
+        "Ailiniyazi Maimaiti <uyghurbeg@Outlook.com>"
+    ],
+    "keywords": [
+        "adapt-plugin",
+        "adapt-extension"
+    ],
+    "license": "GPLv3",
+    "targetAttribute": "_FKCContact"
+}
